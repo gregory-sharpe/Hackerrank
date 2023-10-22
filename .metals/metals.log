@@ -1,0 +1,163 @@
+2023.10.22 13:06:27 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\grego\OneDrive\Documents\HackerRank Scala' for client Visual Studio Code 1.83.1.
+2023.10.22 13:06:27 WARN  Build server is not auto-connectable.
+2023.10.22 13:06:28 WARN  no build tool detected in workspace 'C:\Users\grego\OneDrive\Documents\HackerRank Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.10.22 13:06:28 WARN  no build target for: C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\MatrixLayerRotation.scala
+2023.10.22 13:06:32 INFO  no build target found for C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\MatrixLayerRotation.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.22 13:06:33 WARN  Could not find semantic tokens for: file:///C:/Users/grego/OneDrive/Documents/HackerRank%20Scala/Hard/MatrixLayerRotation.scala
+2023.10.22 13:06:33 INFO  time: code lens generation in 5.4s
+2023.10.22 13:06:33 WARN  Could not find semantic tokens for: file:///C:/Users/grego/OneDrive/Documents/HackerRank%20Scala/Hard/MatrixLayerRotation.scala
+2023.10.22 13:06:52 WARN  Could not find semantic tokens for: file:///C:/Users/grego/OneDrive/Documents/HackerRank%20Scala/Hard/MatrixLayerRotation.scala
+2023.10.22 13:06:52 WARN  Could not find semantic tokens for: file:///C:/Users/grego/OneDrive/Documents/HackerRank%20Scala/Hard/MatrixLayerRotation.scala
+Oct 22, 2023 1:09:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 357
+Oct 22, 2023 1:18:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1098
+Oct 22, 2023 1:24:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\grego\OneDrive\Documents\HackerRank Scala\.metals\.reports\metals-full\2023-10-22\r_compiler-error_13-24-26-004.md
+Oct 22, 2023 1:28:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2266
+Oct 22, 2023 1:30:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2612
+Oct 22, 2023 1:38:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3542
+Oct 22, 2023 1:39:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3658
+Oct 22, 2023 1:40:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3770
+Oct 22, 2023 1:40:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3867
+Oct 22, 2023 1:43:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4158
+2023.10.22 13:45:43 WARN  no build target for: C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\MatrixLayerRotation.scala
+2023.10.22 13:49:25 WARN  no build target for: C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\MatrixLayerRotation.scala
+2023.10.22 13:49:25 WARN  no build target for: C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\MatrixLayerRotation.scala
+Oct 22, 2023 1:57:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\grego\OneDrive\Documents\HackerRank Scala\.metals\.reports\metals-full\2023-10-22\r_compiler-error_13-57-42-788.md
+Oct 22, 2023 1:57:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5924
+2023.10.22 14:03:09 INFO  Shutting down server
+2023.10.22 14:03:09 INFO  shutting down Metals
+2023.10.22 14:03:09 INFO  Exiting server
+2023.10.22 16:18:19 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\grego\OneDrive\Documents\HackerRank Scala' for client Visual Studio Code 1.83.1.
+2023.10.22 16:18:20 WARN  Build server is not auto-connectable.
+2023.10.22 16:18:20 WARN  no build tool detected in workspace 'C:\Users\grego\OneDrive\Documents\HackerRank Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.10.22 16:18:20 WARN  no build target for: C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\MatrixLayerRotation.scala
+2023.10.22 16:18:24 INFO  no build target found for C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\MatrixLayerRotation.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.22 16:18:26 INFO  time: code lens generation in 6.53s
+Oct 22, 2023 4:21:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 686
+Oct 22, 2023 4:22:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 792
+Oct 22, 2023 4:32:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1817
+Oct 22, 2023 4:34:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2030
+Oct 22, 2023 4:34:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2031
+Oct 22, 2023 4:34:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2033
+Oct 22, 2023 4:36:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2132
+Oct 22, 2023 4:36:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2241
+Oct 22, 2023 4:37:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2271
+2023.10.22 16:41:10 ERROR Failed to tokenize input for semantic tokens for C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\MatrixLayerRotation.scala
+scala.meta.tokenizers.TokenizeException: <input>:59: error: Invalid literal number
+        for (i<-1m*n-2){
+                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:820)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:335)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.10.22 16:41:17 ERROR Failed to tokenize input for semantic tokens for C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\MatrixLayerRotation.scala
+scala.meta.tokenizers.TokenizeException: <input>:59: error: Invalid literal number
+        for (i<-1tom*n-2){
+                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:820)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:335)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.10.22 16:50:35 WARN  no build target for: C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\MatrixLayerRotation.scala
+2023.10.22 16:52:56 WARN  no build target for: C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\MatrixLayerRotation.scala
+Oct 22, 2023 5:14:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3930
+2023.10.22 18:43:18 ERROR Failed to tokenize input for semantic tokens for C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\MatrixLayerRotation.scala
+scala.meta.tokenizers.TokenizeException: <input>:48: error: Invalid literal number
+            var count = 2m
+                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:820)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:335)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+Oct 22, 2023 6:43:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5494
