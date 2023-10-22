@@ -31,7 +31,7 @@ object Result {
     val movement: List[point => point] =
       List(_.down(), _.right(), _.up(), _.left())
   }
-  def rotateRight[A](seq: Seq[A], i: Int): Seq[A] = {
+  def rotateRight[A](seq: List[A], i: Int): List[A] = {
     val size = seq.size
     seq.drop(size - (i % size)) ++ seq.take(size - (i % size))
   }
@@ -39,48 +39,48 @@ object Result {
   def matrixRotation(matrix: Array[Array[Int]], r: Int, dim: (Int, Int)) = {
     var m = dim._1
     var n = dim._2
-    var rowOffset = 0
-    var colOffset = 0
+    var offset = 0
     var rotatedmatrix = List.empty[List[Int]]
-    val rotation = r % (n * m - 2)
-    while (m - 2 * rowOffset >= 0 && n - 2 * colOffset >= 0) {
-      var pointer = point(n, m)
+    while (m  > 0 && n > 0) {
+      var pointer = point(m, n)
       var matrixLine = List.empty[Int]
-      var count = 2 * (m + n) - 3
-      for (i <- 1 until count) {
+      var perimeterSize = 2 * (m + n) - 3
+      val rotation = r % (perimeterSize - 1)
+      for (i <- 1 until perimeterSize) {
         matrixLine = matrixLine.appended(
-          matrix(pointer.row + rowOffset)(pointer.col + colOffset)
+          matrix(pointer.row + offset)(pointer.col + offset)
         )
         pointer = pointer.move(n, m)
       }
-      rotatedmatrix = rotatedmatrix.appended(rotateRight(matrixLine, rotation))
-      println(matrixLine)
+      rotatedmatrix = rotatedmatrix.appended(rotateRight(matrixLine, r))
       n -= 2
       m -= 2
-      rowOffset += 1
-      colOffset += 1
+      offset += 1
     }
+    // adding the rotated lines into matrix
     m = dim._1
     n = dim._2
-    var matrix = Array.ofDim[Int](m, n)
-
-    while (m - 2 * rowOffset >= 0 && n - 2 * colOffset >= 0) {
+    offset = 0
+    var output = Array.ofDim[Int](m, n)
+    for (layer <- rotatedmatrix) {
       var pointer = point(n, m)
-      var count = 2 * (m + n) - 3
-      for (i <- 1 until count) {
-        matrix()
-            matrixLine = matrixLine.appended(
-          matrix(pointer.row + rowOffset)(pointer.col + colOffset)
-
-        )
+      for (value <- layer) {
+        output(pointer.row + offset)(pointer.col + offset) = value
         pointer = pointer.move(n, m)
       }
-      n -= 2
       m -= 2
-      rowOffset += 1
-      colOffset += 1
+      n -= 2
+      offset += 1
     }
+ 
 
+    for (line <- output) {
+      for (value <- line) {
+        print(value.toString() + " ")
+      }
+      println()
+    }
+    
   }
 
 }
