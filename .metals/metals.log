@@ -363,3 +363,4 @@ Oct 22, 2023 8:57:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 8576
 Oct 22, 2023 10:18:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 8862
+2023.10.22 22:20:11 WARN  no build target for: C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\MatrixLayerRotation.scala
