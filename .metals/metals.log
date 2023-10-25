@@ -4528,3 +4528,9 @@ WARNING: Unmatched cancel notification for request id 53902
 2023.10.25 10:33:23 WARN  no build target for: C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\determiningDNAhealth.scala
 2023.10.25 11:09:29 WARN  no build target for: C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\MatrixLayerRotation.scala
 2023.10.25 11:10:14 WARN  no build target for: C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\DNAhealthTest.scala
+2023.10.25 11:19:27 WARN  no build target for: C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\determiningDNAhealth.scala
+Oct 25, 2023 11:33:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54519
+Oct 25, 2023 11:33:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54528
+2023.10.25 11:35:47 WARN  no build target for: C:\Users\grego\OneDrive\Documents\HackerRank Scala\Hard\determiningDNAhealth.scala

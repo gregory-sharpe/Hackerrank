@@ -11,9 +11,9 @@ object Solution {
     def update(geneBit: Char, healthValue: Int = 0): DNAHealthNode = {
       var childNode: DNAHealthNode = this
       children.get(geneBit) match {
-        case Some(dnaMap) => {
-          dnaMap.value += healthValue
-          childNode = dnaMap
+        case Some(child) => {
+          child.value += healthValue
+          childNode = child
         }
         case None => {
           childNode = DNAHealthNode(healthValue)
@@ -45,7 +45,9 @@ object Solution {
       geneBit: Char,
       listOfNodes: OptionaldnaNodeList
   ) = {
-    listOfNodes += Some(root)
+    listOfNodes += Some(
+      root
+    ) // adds a pointer to the root node to indicate the start of a token being parsed
     val newListOfNodes = listOfNodes.flatten.map(_.getChild(geneBit))
     newListOfNodes
   }
@@ -55,7 +57,7 @@ object Solution {
     val genes = StdIn.readLine.replaceAll("\\s+$", "").split(" ")
     val health =
       StdIn.readLine.replaceAll("\\s+$", "").split(" ").map(_.trim.toInt)
-    val geneOccurences = genes.zip(health) // string
+    val geneWithHealthValue = genes.zip(health) // string
 
     val s = StdIn.readLine.trim.toInt
     var healthPoints = List.empty[Int]
@@ -69,14 +71,13 @@ object Solution {
       val lBound = bounds._1
       val uBound = bounds._2
       val root = DNAHealthNode()
-      val geneSection = geneOccurences.slice(lBound, uBound )
+      val geneSection = geneWithHealthValue.slice(lBound, uBound)
       for ((gene: String, value) <- geneSection) {
         addToHashTree(root, gene, value)
       }
       root
     })
-    //throw new Exception("cache created")
-    
+    // throw new Exception("cache created")
 
     // val cachedRanges = allChachedRanges.filter((lBond,uBound)=>startindex<=lBond && finalindex>= uBound)
 
@@ -84,7 +85,7 @@ object Solution {
       val firstMultipleInput = StdIn.readLine.replaceAll("\\s+$", "").split(" ")
       val first = firstMultipleInput(0).toInt
       val last = firstMultipleInput(1).toInt
-      val d = firstMultipleInput(2) // string to be parsed by tree
+      val dnaToBeParsed = firstMultipleInput(2) // string to be parsed by tree
 
       /*
      first idea used one tree as a parser.
@@ -100,17 +101,19 @@ object Solution {
       val usefulcache = cache.toList.filter { case (bounds, _) =>
         first <= bounds._1 && last >= bounds._2
       }
-      println(usefulcache.map{case (range,_)=>range})
-      println(first.toString()+" "+usefulcache.head._1._1)
-      println(usefulcache.last._1._2.toString()+" "+last)
-      val uncachedStart = geneOccurences.slice(first, usefulcache.head._1._1)
+      println(usefulcache.map { case (range, _) => range })
+      println(first.toString() + " " + usefulcache.head._1._1)
+      println(usefulcache.last._1._2.toString() + " " + last)
+      val uncachedStart =
+        geneWithHealthValue.slice(first, usefulcache.head._1._1)
       val unCachedStartNode = DNAHealthNode()
       for ((gene: String, value) <- uncachedStart) {
         addToHashTree(unCachedStartNode, gene, value)
       }
 
       val uncachedEndNode = DNAHealthNode()
-      val unCachedEnd = geneOccurences.slice(usefulcache.last._1._2, last+1 )
+      val unCachedEnd =
+        geneWithHealthValue.slice(usefulcache.last._1._2, last + 1)
       for ((gene: String, value) <- unCachedEnd) {
         addToHashTree(uncachedEndNode, gene, value)
       }
@@ -122,7 +125,7 @@ object Solution {
       val total = treeParsers.map { (root) =>
         var listOfTokens = new OptionaldnaNodeList()
         var treeTotal = 0
-        for (geneBit <- d) {
+        for (geneBit <- dnaToBeParsed) {
           listOfTokens = traverseTree(root, geneBit, listOfTokens)
           treeTotal += listOfTokens.flatten.map(_.value).sum
         }
